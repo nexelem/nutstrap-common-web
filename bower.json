@@ -1,0 +1,22 @@
+{
+  "name": "common-web",
+  "version": "0.1",
+  "homepage": "https://github.com/nexelem/angular-common-web",
+  "main": "dist/common-module.min.js",
+  "authors": [
+    "Nexelem <office@nexelem.com>"
+  ],
+  "description": "Angular authentication support",
+  "keywords": [
+    "angular",
+    "authentication"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,1 @@
+(function(){var DateService;DateService=function(){function DateService(){}return DateService.prototype.now=function(){return new Date},DateService}(),commonModule.service("DateService",DateService)}).call(this);

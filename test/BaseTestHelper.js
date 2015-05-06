@@ -1,0 +1,1 @@
+this.commonModule = angular.module('myApp.common', []);
