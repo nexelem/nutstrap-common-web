@@ -3,6 +3,7 @@
 This module contains core AngularJS functionality that is used by all of the other modules.
 
 
+
 #### Using the angular-common-web module
 
 include the library in your main angular file  (app.coffee / app.js).
@@ -20,12 +21,7 @@ and add the module into angular
 
 finally you can add the js to your html, (index.html)
 
-```
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("Extensions.js"))' type="text/javascript"></script>
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("Config.js"))' type="text/javascript"></script>
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("HttpService.js"))' type="text/javascript"></script>
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("ConfigService.js"))' type="text/javascript"></script>
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("DateService.js"))' type="text/javascript"></script>
-<script src='@routes.WebJarAssets.at(WebJarAssets.locate("TrackedChangeUtils.js"))' type="text/javascript"></script>
-```
+To compile coffeescript, copy files to dist and concat into one use respectively grunt tasks: coffee, copy and uglify.
+grunt dist runs all those tasks.
+Complete, minified js file can be found in dist/common-module.min.js
 
