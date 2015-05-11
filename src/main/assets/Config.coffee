@@ -22,3 +22,15 @@ commonModule.constant('RegExPatterns', {
     decimalType2dp: "/^[0-9]+(.[0-9][0-9]?)?$/",
     phoneNumber: "/^[0]([0-9][ ]*){10,}$/"
 })
+
+commonModule.constant('UserConfig', {
+  API_CREATE_USER: "/user/create",
+  API_UPDATE_USER: "/user/update",
+  API_RESET_PASSWORD: '/user/password/reset',
+  API_VALIDATE_USERNAME: '/user/username/validate/{username}',
+  API_LIST_EXTERNAL_USER_GROUPS: "/user/external/groups",
+  API_DELETE_EXTERNAL_USER_GROUPS: "/user/external/group/{groupId}",
+  API_AUTHENTICATED: "/authenticated",
+  API_LOGIN: "/login",
+  API_LOGOUT: "/logout"
+})
