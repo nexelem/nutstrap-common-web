@@ -1,6 +1,5 @@
 // Karma configuration
 
-var ANGULAR_JS_VERSION ="1_2_16";
 
 module.exports = function(config) {
   config.set({
@@ -13,14 +12,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      // Angular libs
-      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular.js',
+        './node_modules/angular/angular.js',
 
-      // Testing libs
-      './../../test-runner/libs/angularjs/' + ANGULAR_JS_VERSION + '/angular-mocks.js',
+        // Testing libs
+        './node_modules/angular-mocks/angular-mocks.js',
 
       // Test helper
-      './../../test-runner/libs/javascript/BaseTestHelper.js',
       './test/BaseTestHelper.js',
 
       // CoffeeScript Complied JS
