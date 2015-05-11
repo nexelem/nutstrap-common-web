@@ -1,5 +1,5 @@
 {
-  "name": "common-web",
+  "name": "angular-common-web",
   "version": "0.1",
   "homepage": "https://github.com/nexelem/angular-common-web",
   "main": "dist/common-module.min.js",
