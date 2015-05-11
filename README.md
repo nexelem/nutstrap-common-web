@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nexelem/nutstrap-common-web.svg)](https://travis-ci.org/nexelem/nutstrap-common-web)
+
 ### nutstrap-common-web
 
 This module contains core AngularJS functionality that is used by all of the other modules.
